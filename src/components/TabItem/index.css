@@ -1,0 +1,26 @@
+.tabItem-list-container {
+  padding: 5px;
+}
+@media screen and (min-width: 992px) {
+  .tabItem-list-container {
+    padding: 24px;
+  }
+}
+.tab-button {
+  color: #7b8794;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media screen and (min-width: 992px) {
+  .tab-button {
+    font-size: 20px;
+  }
+}
+.active-tab-btn {
+  border-bottom: 2px solid #dfe2e5;
+  color: #2563eb;
+}
